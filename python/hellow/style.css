@@ -1,0 +1,21 @@
+.dark{
+            background-color: black;
+            color: white;
+         }
+         .light{
+            background-color: white;
+            color: black;
+            
+         }
+
+/* 
+         div{
+            background-color: black;
+            height: 20vw;
+            width: 50vw;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+         } */

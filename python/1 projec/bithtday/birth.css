@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pacifico', cursive;
+  background: linear-gradient(135deg, #fddde6, #faaca8);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.content {
+  max-width: 600px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+#countdown {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+button {
+  padding: 15px 30px;
+  background: #fff;
+  border: none;
+  border-radius: 25px;
+  color: #ff4081;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #ff4081;
+  color: #fff;
+}
+
+/* Confetti Effect */
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  animation: fall 3s linear forwards;
+  opacity: 0.8;
+  border-radius: 50%;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
